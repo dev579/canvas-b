@@ -1,0 +1,459 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.palitra-cmyk > div {
+	width:22px;
+	height:22px;
+	display: inline-block;
+	margin:1px 1px 0 0;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* added styles */
+
+.head-phone {
+    font-size: 20px;
+}
+
+.head-phone:before {
+    /* position: absolute; */
+    /* top: 5px; */
+    /* left: 15px; */
+    /* left: 0px; */
+    margin-top: 2px;
+    margin-right: 0;
+    /* width: 36px; */
+    width: 30px;
+    height: 28px;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    /* background-size: 28px 28px; */
+    background-size: 20px 20px;
+    /* background-size: unset; */
+}
+
+.head-cart {
+	margin-top: unset !important;
+	background: unset !important;
+}
+
+.container {
+    /*width: 300px;*/
+    /*width: 260px;*/
+    width: unset;
+    flex: unset;
+    /*width: auto;*/
+    /*background: burlywood;*/
+    /*background: #fff5e8;*/
+}
+
+.breads {
+    flex-wrap: unset;
+    align-items: unset;
+    justify-content: unset;
+    display: block;
+    float: left;
+}
+
+.breads li {
+    float: left;
+}
+
+.time-line {
+    /*width: 297px;*/
+    width: auto;
+}
+
+.time-text {
+    padding-top: 10px;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    max-width: 90%;
+}
+
+.card-redactor--desc {
+    width: 85%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+	.cards_list ul.cards > div {
+	    /* min-height: 150px; */
+	    margin: 0 auto;
+	    width: 90%;
+	    display: table;
+	    float: none;
+	    /*background-color: #fcf3fd82;*/
+	}
+	
+	.card {
+	    /*width: 43%;*/
+	    width: 47%;
+	    margin-right: 6%;
+	}
+
+	.card:nth-child(2n) {
+	    margin-right: 0 !important;
+	}
+
+} 	/* End: @media screen and (max-width: 1200px) */
+
+
+
+@media screen and (max-width: 1024px) {
+
+	.container {
+	    margin: 9px auto 0;
+	    padding: 0;
+	    width: 93%;
+	}
+
+}	/* End: @media screen and (max-width: 1024px) */
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+	.gr_container {
+		position: relative;
+	   margin: 0 auto;
+	   /*width: 94%;*/
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+
+/*div#card-in > img {
+    display: none;
+}*/
+
+
+	/*  section for constructor  */
+
+	.card-redactor--btns {
+		display: table;
+	   float: left;
+	}
+
+	.card-redactor--btns button#add-personalize {
+    	margin-left: 20px;
+	}
+
+	.card-redactor--font_def {
+	   display: inline-flex;
+	}
+
+	.card-redactor--font_def button.card-redactor--btn {
+	   margin-left: 43px;
+	}
+
+	.card-redactor--comp li {
+	    width: 30%;
+	}
+
+	.card-redactor--font_def .total-count {
+	    margin-left: 0 !important;
+	}
+
+
+
+
+	/*  section for blog  */
+
+	ul.time-list {
+	    display: -webkit-block;
+	    display: -ms-block;
+	    display: block;
+	}
+
+	ul.time-list li, .time-list--img, .time-list--desc {
+	    -webkit-box-flex: unset;
+	    -webkit-flex: unset;
+	    -ms-flex: unset;
+	    flex: unset;
+	    display: block;
+	}
+
+	.time-list--img {
+	    width: auto;
+	    margin: 0 auto;
+	    width: 100%;
+	}
+	
+	.time-list--img a, .time-list--img img {
+	    margin: 0 auto;
+	    display: table;
+	}
+
+	.time-list--desc {
+	    margin: 0 auto;
+	    width: 100%;
+	    min-height: 30px;
+	}
+
+
+
+}		/* End: @media screen and (max-width: 767px) */
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 479px) {*/
+
+	.card-redactor--other.other-palitra {
+	    display: none;
+	}
+
+	.card-redactor--font_space, .card-redactor--font_size {
+	    margin-right: 0;
+	}
+
+	/*.card-redactor--font_size .card-redactor--select.min:nth-child(2n) {*/
+	.card-redactor--font_space {
+		margin-left: unset;
+		margin-right: 0;
+		float: right;
+	}
+
+
+	.card-redactor--select.min {
+		 margin-left: 4px;
+	    padding: 10px 26px 14px 4px;
+	}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 479px) {
+
+	.container .head-row.head-row--first {
+		position: relative;
+	   margin-top: -3px;
+	   min-height: 45px;
+		display: block !important;
+	    /*background: bisque; */
+	}
+
+
+
+	.head-phone {
+		position: absolute;
+	   top: 0;
+	   /*left: 30px; */
+	   left: 0px; 
+	   /*margin-left: 40px;*/
+	   /*display: inline-block;*/
+	   float: left;
+	   /*display: inline-table;*/
+    	font-size: 21px !important;
+	}
+
+	.head-phone:before {
+	   /*position: absolute;*/
+	    /*top: 5px;*/
+	    /*left: 15px;*/
+		/*left: 0px;*/
+	   margin-top: 2px;
+	   margin-right: 0;
+	   /*width: 36px;*/
+	   width: 30px;
+	   height: 28px;
+	   display: block;
+	   float: left;
+	   background-repeat: no-repeat;
+	    /* background-size: 28px 28px; */
+	   background-size: 20px 20px; 
+	    /*background-size: unset;*/
+	}
+
+	.shop-cart {
+	    /*display: inline-block;*/
+	    position: absolute;
+	    top: -2px;
+	    /*right: 75px;*/
+	    right: 55px;
+	    width: 38px;
+	    /*background-color: coral;*/
+	}
+
+	.head-cart, .shop-cart-head .shop-cart-head > button {
+	   width: 17px;
+	   height: 18px;
+	   width: 28px;
+	   height: 28px;
+	   font-size: 28px; 
+	   color: #454c4d; 
+	   background: url("cart.png"); 
+	   -webkit-background-size: initial;
+	   background-size: initial;
+	   display: block;
+	   width: auto !important;
+	   background-repeat: no-repeat;
+	   background-size: 28px 28px;
+	   background: unset; 
+	}
+
+	.head-cart-tov {
+		margin-top: 0;
+	   width: unset; 
+	   height: unset; 
+	   background: unset;
+	    /* background-repeat: no-repeat; */
+	   background-size: unset; 
+	}
+
+	.fa-shopping-cart {
+	    font-size: 28px;
+	}
+
+
+.head-socs {
+    margin: 0 auto;
+    display: table;
+    background-color: aqua;
+    display: none;
+}
+
+button.head-menu--btn {
+    position: absolute;
+    top: 3px;
+    /*display: table;*/
+    /*display: inline-block;*/
+    /*margin-top: 0;*/
+    /*right: 15px;*/
+    right: 0px;
+    /* margin-top: 0; */
+    /* height: 36px; */
+    margin-left: 0;
+    z-index: 3;
+    /* height: 36px; */
+}
+
+.head-menu--btn:after {
+    /*margin-top: -5px;*/
+    bottom: -7px;
+}
+
+
+
+
+
+	.card-redactor--btns button#add-personalize {
+    	margin-left: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+	
+	.card-redactor--font_def button.card-redactor--btn {
+	    margin-left: 5px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  fixing  */
+
+.card-redactor--order_var label:after {
+    left: 7px;
+}
+
+
+
+
+
+/*  TEMPORARY RECOLORING   */
+
+.container {
+    /*background: burlywood;*/
+    /*background: #fff5e8;*/
+}
+
+.card-form {
+    border: 1px solid lightgray;
+}

@@ -729,6 +729,17 @@
                 <option value="198">198</option>
                 <option value="199">199</option>
                 <option value="200">200</option>
+                <option value="201">201</option>
+                <option value="202">202</option>
+                <option value="203">203</option>
+                <option value="204">204</option>
+                <option value="205">205</option>
+                <option value="206">206</option>
+                <option value="207">207</option>
+                <option value="208">208</option>
+                <option value="209">209</option>
+                <option value="210">210</option>
+                
           </select>
         </div>
         <div class="card-redactor--font_space interval-redaktor"><img src="symbols.png" alt="">
@@ -2336,6 +2347,38 @@ $('.generate').click(function(e) {
  -->
 
 <script type="text/javascript">AjaxForm.initialize({"assetsUrl":"\/assets\/components\/ajaxform\/","actionUrl":"\/assets\/components\/ajaxform\/action.php","closeMessage":"\u0437\u0430\u043a\u0440\u044b\u0442\u044c \u0432\u0441\u0435","formSelector":"form.ajax_form","pageId":169});</script><script src="jquery.form.min.js"></script><script src="jquery.jgrowl.min.js"></script>
+
+
+
+
+
+
+
+<script>
+  
+    $(document).ready(function(){  
+
+              $(document).on('click', '.redakt-text', function(e) {
+              // $(document).on('mouseover', '.redakt-text', function(e) {
+
+                  // alert('fired');
+                  console.log($(this).text());
+                  // console.log($(this).css('font-size'));
+                  console.log(parseInt($(this).css('font-size'),10));
+                  var font_size = parseInt($(this).css('font-size'),10);
+    console.log(font_size);
+                  $('select.card-redactor--select option[value="'+font_size+'"]').prop('selected', true);
+
+              }); // end: $(document).on('click', '.redakt-text', function(e) {
+
+
+    });
+
+
+
+</script>
+
+
 
 
 

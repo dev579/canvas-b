@@ -1402,7 +1402,7 @@ var drag = {
     autoScroll: null,
 
     startAxis: 'xy',
-    lockAxis: 'xy'
+    lockAxis: 'y'
   },
 
   checker: function checker(pointer, event, interactable) {
